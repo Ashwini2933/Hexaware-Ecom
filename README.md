@@ -26,3 +26,27 @@ This is a console-based Java Ecommerce Application developed as part of an End O
 
 ## 📂 Project Structure
 
+## 🧪 Sample Classes
+
+- `Customer.java`
+- `Product.java`
+- `Order.java`
+- `OrderDetail.java`
+- `Inventory.java`
+- `CustomerDAO`, `ProductDAO`, etc.
+
+## 🔌 Database Setup
+
+1. Create a MySQL database named `ecommerce_db`.
+2. Run the provided SQL script `schema.sql` to create tables.
+3. Update `DBUtil.java` with your MySQL username and password.
+
+## 🏁 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ecommerce-app.git
+   cd ecommerce-app
+javac com/ecommerce/app/EcommerceApp.java
+java com.ecommerce.app.EcommerceApp
+
